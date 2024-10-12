@@ -9,7 +9,7 @@ app = FastAPI()
 VALIDATED_CODES_FILE = "validated.txt"
 
 # Password for protected actions
-ADMIN_PASSWORD = "too_secured"
+ADMIN_PASSWORD = os.environ["ADMIN_PASSWORD"]
 
 # Ensure the file exists before starting
 if not os.path.exists(VALIDATED_CODES_FILE):
