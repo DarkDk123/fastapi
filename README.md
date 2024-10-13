@@ -1,10 +1,10 @@
-# Flask API Service Starter
+# Chalo fake FastAPI Backend
 
-This is a minimal Flask API service starter based on [Google Cloud Run Quickstart](https://cloud.google.com/run/docs/quickstarts/build-and-deploy/deploy-python-service).
+This is a personal, minimal FastAPI backend for a side project for very low level security of a Flutter App.
 
 ## Getting Started
 
-Server should run automatically when starting a workspace. To run manually, run:
+Development Server should run automatically when starting a workspace. To run manually, run:
 ```sh
 ./devserver.sh
 ```
